@@ -20,7 +20,7 @@ Each color can be displayed bold.
 - `%m` name of current machine
 - `%c` current directory
 - `%~` full path except that $HOME gets represented with a ~
-- `%N~` display only the *N* last directorys as the path (e.g. `%2~` shows only the last 2 directorys from the full path)
+- `%N~` display only the *N* last directorys as the path (e.g. `%2~` shows only the last 2 directories from the full path)
 - `%#` prompt will show # when shell is running with root privileges, else it shows %
 #### Ternary Condition:
 `%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )`
